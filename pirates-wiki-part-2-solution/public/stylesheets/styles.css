@@ -1,0 +1,59 @@
+@font-face {
+  font-family: arg;
+  src: url('/fonts/one_piece_font.ttf');
+}
+
+* {
+  margin: 0;
+  font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+
+.container {
+  background-color: pink;
+  text-align: center;
+  overflow: auto;
+  height: 100vh;
+}
+
+.pirate-show > li {
+  text-align: center;
+  display: block;
+  float: none;
+  width: 100%;
+  font-size: 24px;
+}
+h1 {
+  font-family: arg;
+  margin: 35px 0px;
+  font-size: 5em;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+
+  /*font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;*/
+}
+a:hover {
+  color: white;
+}
+form {
+      padding: 1em;
+}
+input {
+  margin: 1em 0;
+  border: 1px black dotted;
+  background-color: lightblue;
+}
+input[type=text] {
+  font-size: 1.5em;
+  color: dimgrey;
+}
+input[type=number] {
+  font-size: 1.5em;
+  color: dimgrey;
+}
