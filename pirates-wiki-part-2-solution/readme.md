@@ -80,7 +80,7 @@ var pirateController = require('./controllers/pirates.js');
 app.use("/pirates", pirateController);
 ```
 
-This tells our server that our controller files for `/pirates` live in the `../controllers/pirates.js` directory.
+This tells our server that our controller files for `/pirates` live in the `./controllers/pirates.js` directory.
 
 ### controllers/pirates.js
 
